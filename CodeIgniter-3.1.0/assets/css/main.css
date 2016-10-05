@@ -1,0 +1,17 @@
+body{
+	font-family: 'Libre Baskerville', serif;
+}
+
+nav->ul->li{
+	margin: 20px auto;
+	
+}
+
+.carousel-inner > .item > img{
+	max-height:500px;
+	max-width: 500px;
+	min-height: 300px;
+	min-width: 300px;
+	margin: auto;
+	padding: 10px;
+}

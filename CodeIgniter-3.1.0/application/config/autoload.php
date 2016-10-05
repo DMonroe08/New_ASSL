@@ -132,4 +132,8 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
+
 $autoload['model'] = array();
+
+$autoload['helper'] = array('form', 'url', 'html');
+$autoload['libraries'] = array('database', 'session', 'form_validation');
