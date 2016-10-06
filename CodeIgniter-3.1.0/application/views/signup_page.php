@@ -15,11 +15,11 @@
 	<?php
 	echo form_open('signup/check');
 	
-	echo "First Name: " . form_input('firstname', set_value('firstname', '')) . "<br><br>";
-	echo "Last Name: " . form_input('lastname', set_value('lastname', '')) . "<br><br>";
-	echo "Email: " . form_input('email', set_value('email', '')) . "<br><br>";
-	echo "Username: " . form_input('username', set_value('username', '')) . "<div id='check'></div><br><br>";
-	echo "Password: " . form_input('password', set_value('password', '')) . "<br><br>";
+	echo "<div class='col-sm-4'>First Name : </div>" . "<div class='col-sm-8'>" . form_input('firstname', set_value('firstname', '')) . "</div>" . "<br><br>";
+	echo "<div class='col-sm-4'>Last Name : </div> " . "<div class='col-sm-8'>" .  form_input('lastname', set_value('lastname', '')) . "</div>" . "<br><br>";
+	echo "<div class='col-sm-4'>Email : </div>" .  "<div class='col-sm-8'>" . form_input('email', set_value('email', '')) . "</div>" . "<br><br>";
+	echo "<div class='col-sm-4'>Username : </div>" .  "<div class='col-sm-8'>" . form_input('username', set_value('username', '')) . "<div id='check'>" . "</div>" ."</div><br><br>";
+	echo "<div class='col-sm-4'>Password : </div>" .  "<div class='col-sm-8'>" . form_input('password', set_value('password', '')) . "</div>" . "<br><br>";
 	echo "<div class='submit'>" . form_submit('submit', 'signup') . "</div>";
 	echo form_close();
 	?>

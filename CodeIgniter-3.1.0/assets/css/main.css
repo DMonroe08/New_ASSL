@@ -1,8 +1,9 @@
 body{
 	font-family: 'Libre Baskerville', serif;
+	background: url(../images/old_wall.png);
 }
 
-h1{
+#title{
 	color: #9a2f20;
 }
 
@@ -21,7 +22,7 @@ nav->ul->li{
 
 .sign{
 	margin: 50px ;
-	background: #9a2f20;
+	 background: #9a2f20;
 	color: #fff;
 	border-radius: 4px;
 }

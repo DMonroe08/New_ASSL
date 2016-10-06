@@ -16,7 +16,7 @@
 			<div class="col-md-10 col-md-offset-1">
 				<div class="holder">
 					<div class="row">
-						<div class="col-md-4">
+						<div class="col-md-4" id="title">
 							<h1 class="text-center">Book Binge</h1>
 						</div><!--Ends MD 4 Column-->
 							

@@ -1,3 +1,4 @@
+					<div class="sign">
 					<div class="row">
 						<div class="col-md-10 col-md-offset-1">
 							<div class="carousel slide" data-ride="carousel" id="carousel">
@@ -12,7 +13,7 @@
 							  <!-- Wrapper for slides -->
 							  <div class="carousel-inner" role="listbox">
 							    <div class="item active">
-							      <img class=" img-responsive" src="<?php echo base_url('/assets/images/romance.jpg');?>"   alt="Responsive image" >
+							      <img class=" img-responsive" src="<?php echo base_url('/assets/images/romance2.jpg');?>"   alt="Responsive image" >
 							      <div class="carousel-caption">
 							        <p>Love Never Dies</p>
 							      </div>
@@ -32,7 +33,7 @@
 							    </div>
 								
 							    <div class="item">
-							      <img class=" img-responsive" src="<?php echo base_url('/assets/images/horror.jpg');?>"   alt="responsive image">
+							      <img class=" img-responsive" src="<?php echo base_url('/assets/images/horror2.jpg');?>"   alt="responsive image">
 							      <div class="carousel-caption">
 							        <p>What's That Behind You?!</p>
 							      </div>
@@ -53,4 +54,4 @@
 							
 						</div><!--Ends MD 10 Offset 2 Column-->
 					</div><!--Ends Row Div-->
-					
+				</div>
