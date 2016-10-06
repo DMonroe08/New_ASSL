@@ -20,7 +20,7 @@
 	echo "Email: " . form_input('email', set_value('email', '')) . "<br><br>";
 	echo "Username: " . form_input('username', set_value('username', '')) . "<div id='check'></div><br><br>";
 	echo "Password: " . form_input('password', set_value('password', '')) . "<br><br>";
-	echo form_submit('submit', 'signup');
+	echo "<div class='submit'>" . form_submit('submit', 'signup') . "</div>";
 	echo form_close();
 	?>
 </section>

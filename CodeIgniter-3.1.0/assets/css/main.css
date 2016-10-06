@@ -2,9 +2,12 @@ body{
 	font-family: 'Libre Baskerville', serif;
 }
 
+h1{
+	color: #9a2f20;
+}
+
 nav->ul->li{
-	margin: 20px auto;
-	
+	margin-top: 20px auto;	
 }
 
 .carousel-inner > .item > img{
@@ -17,6 +20,16 @@ nav->ul->li{
 }
 
 .sign{
+	margin: 50px ;
 	background: #9a2f20;
 	color: #fff;
+	border-radius: 4px;
+}
+
+#forms{
+	margin: 25px auto;
+}
+
+.submit{
+	color: #9a2f20;
 }

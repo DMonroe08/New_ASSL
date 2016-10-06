@@ -18,16 +18,16 @@
 							      </div>
 							    </div>
 							    <div class="item">
-							      <img class=" img-responsive" src="<?php echo base_url('/assets/images/crime.jpg');?>"   alt="responsive image">
+							      <img class=" img-responsive" src="<?php echo base_url('/assets/images/fantasy.jpg');?>"   alt="responsive image">
 							      <div class="carousel-caption">
-							        <p>Can They Find The Killer?!</p>
+							        <p>Travel To Far Lands</p>
 							      </div>
 							    </div>
 		
 							    <div class="item">
 							      <img class=" img-responsive" src="<?php echo base_url('/assets/images/mystery.jpg');?>"   alt="responsive image">
 							      <div class="carousel-caption">
-							        <p>Who Done It?</p>
+							        <p>Can They Find The Killer?!</p>
 							      </div>
 							    </div>
 								

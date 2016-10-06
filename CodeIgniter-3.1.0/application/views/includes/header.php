@@ -16,11 +16,11 @@
 			<div class="col-md-10 col-md-offset-1">
 				<div class="holder">
 					<div class="row">
-						<div class="col-md-4" id="top">
+						<div class="col-md-4">
 							<h1 class="text-center">Book Binge</h1>
 						</div><!--Ends MD 4 Column-->
 							
-							<div class="col-md-4 col-md-offset-4">
+							<div class="col-md-6 col-md-offset-1">
 								<div class="row">
 									<nav class="col-md-12">
 											<!--Navigation-->
