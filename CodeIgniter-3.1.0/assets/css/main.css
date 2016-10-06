@@ -15,3 +15,8 @@ nav->ul->li{
 	margin: auto;
 	padding: 10px;
 }
+
+.sign{
+	background: #9a2f20;
+	color: #fff;
+}
