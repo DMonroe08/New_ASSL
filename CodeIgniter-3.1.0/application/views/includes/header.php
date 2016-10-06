@@ -4,9 +4,10 @@
 	<meta http-equiv="Content Type" content="text/html" charset="utf-8">
 	<title>Book Binge</title>
 	<link rel="stylesheet" href="<?php echo base_url("assets/css/main.css"); ?>"/>
+	<link href="<?php echo base_url('assets/fonts/LibreBaskerville-Regular.ttf')?>" rel="stylesheet">
 	<link rel="stylesheet" href="<?php echo base_url("assets/css/bootstrap.css"); ?>" />
 	
-	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+	
 	
 	
 </head>

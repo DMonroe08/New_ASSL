@@ -1,6 +1,11 @@
 body{
-	font-family: 'Libre Baskerville', serif;
+	
 	background: url(../images/old_wall.png);
+}
+
+.holder{
+	font-family: 'Libre Baskerville', serif;
+	src: url('../fonts/LibreBaskerville-Regular.ttf');
 }
 
 #title{
