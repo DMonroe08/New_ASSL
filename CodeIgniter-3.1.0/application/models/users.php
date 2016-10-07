@@ -1,7 +1,7 @@
 <?php
 class Users extends CI_Model{
 	
-	public funtion can_signin(){
+	public function can_signin(){
 		$this->db->where('username', $this->input->post('username'));
 		$this->db->where('password', $this->input->post('password'));
 		

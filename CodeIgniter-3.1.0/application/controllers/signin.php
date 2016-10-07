@@ -13,8 +13,8 @@ class Signin extends CI_Controller{
 		//Gets Users Model and Sets Rules
 		$this->load->model('users');
 		$this->load->library('form_validation');
-		$this->form_validatoin->set_rules('username', 'Username', 'trim|required');
-		$this->form_validatoin->set_rules('password', 'Passowrd', 'trim|required');
+		$this->form_validation->set_rules('username', 'Username', 'trim|required');
+		$this->form_validation->set_rules('password', 'Passowrd', 'trim|required');
 		
 		//Checks if Username and Password are correct
 		if($this->form_validation->run() == TRUE){
@@ -29,12 +29,21 @@ class Signin extends CI_Controller{
 					'is_logged_in' => true
 				);
 				$this->session->set_userdata($data);
-				
+				$this->users_page();
 			}else{
 				$this->load();
+				echo "Sorry something went wrong";
 			}
 		}
 	} //Ends validation function
+	
+	public function users_page(){
+		$this->load->helper('url');
+		$this->load->helper('form');
+		$this->load->library('form_validation');
+		$data['content'] = 'users_page';
+		$this->load->view('includes/template', $data);
+	}
 	
 } //Ends Signin Controller
 ?>
