@@ -6,7 +6,7 @@
 	echo form_open('signin/validation');
 	echo "Username: " . form_input('username', '') . "<br><br>";
 	echo "Password: " . form_password('password', '', '') . "<br><br>";
-	echo "<div class='black'>" . form_submit('submit', 'signin') . "</div>";
+	echo "<div class='submit'>" . form_submit('submit', 'signin') . "</div>";
 	echo form_close();
 	?>
 	
