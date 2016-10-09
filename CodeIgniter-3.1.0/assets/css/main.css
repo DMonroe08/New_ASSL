@@ -25,16 +25,14 @@ nav->ul->li{
 	padding: 10px;
 }
 
-.sign{
+.form{
+	
 	margin: 50px ;
-	 background: #9a2f20;
+	background: #9a2f20;
 	color: #fff;
 	border-radius: 4px;
 }
 
-#forms{
-	margin: 25px auto;
-}
 
 .norm, .submit{
 	color: #9a2f20;

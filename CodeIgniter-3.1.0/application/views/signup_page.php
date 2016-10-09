@@ -1,5 +1,5 @@
 					
-<div class="sign">
+<div class="form">
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
 <h2 class="text-center">Create an account with us</h2>
@@ -11,7 +11,7 @@
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
 <section class="text-center" id="forms">
-	<?php if (isset($retry)){echo $retry;}?>
+	
 	<?php
 	echo form_open('signup/check');
 	

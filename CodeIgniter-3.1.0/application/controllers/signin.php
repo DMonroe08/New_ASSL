@@ -1,3 +1,4 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');?>
 <?php
 class Signin extends CI_Controller{
 	
@@ -43,6 +44,7 @@ class Signin extends CI_Controller{
 		$this->load->library('form_validation');
 		$data['content'] = 'users_page';
 		$this->load->view('includes/template', $data);
+		
 	}
 	
 } //Ends Signin Controller

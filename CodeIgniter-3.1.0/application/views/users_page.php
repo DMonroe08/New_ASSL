@@ -1,4 +1,4 @@
-<div class="sign">
+<div class="form">
 	
 	<h2>Welcome</h2>
 	
