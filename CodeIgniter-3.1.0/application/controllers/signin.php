@@ -30,7 +30,9 @@ class Signin extends CI_Controller{
 					'is_logged_in' => true
 				);
 				$this->session->set_userdata($data);
+				
 				$this->users_page();
+				return TRUE;
 			}else{
 				$this->load();
 				echo "Sorry something went wrong";
@@ -45,7 +47,18 @@ class Signin extends CI_Controller{
 		$data['content'] = 'users_page';
 		$this->load->view('includes/template', $data);
 		
-	}
+	} //Ends users page function
+	
+	public function delete_account(){
+		$this->load->model('users');
+		$this->form_validation->set_rules('username', 'Username', 'trim|require');
+		$this->form_validation->set_rules('password', 'Password', 'trim|require');
+		
+		if($this->users->delete_user() == TRUE){
+			$data['content'] = 'home_page';
+			$this->load->view('includes/template', $data);
+		}
+	} //Ends Delete account function
 	
 } //Ends Signin Controller
 ?>

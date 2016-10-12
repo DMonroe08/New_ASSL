@@ -2,10 +2,10 @@
 <div class="form">
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
-<h2 class="text-center">Create an account with us</h2>
+<div class="inst"><h2 class="text-center">Create an account with us</h2>
 
 <?php echo validation_errors();?>
-<section class="errors_here"></section>
+<section class="errors_here"></section></div>
 </div>
 </div><!--Ends Row div-->
 <div class="row">

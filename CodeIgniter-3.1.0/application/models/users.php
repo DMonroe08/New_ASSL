@@ -14,11 +14,21 @@ class Users extends CI_Model{
 				'password' => $row->password
 			);
 			$this->session->set_userdata($data);
+			
 			return TRUE;
 		}else{
 			return FALSE;
 		}
 	}//Ends Can Sign In Function
+	
+	public function delete_user(){
+		$this->db->where('username', $this->input->post('username'));
+		$username = ($_POST['username']);  
+ 		$this->db->from('users');
+		$this->db->delete('users', array('username' => $username));
+		
+		return TRUE;
+	}
 	
 } //Ends Users Model
 ?>
