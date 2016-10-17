@@ -10,7 +10,7 @@
 </div><!--Ends Row div-->
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
-<section class="text-center" id="forms">
+<section class="text-center">
 	
 	<?php
 	echo form_open('signup/check');

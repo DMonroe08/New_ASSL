@@ -41,4 +41,7 @@ nav->ul->li{
 	color: #9a2f20;
 }
 
+section -> #news{
+	padding: 50px auto;
+}
 

@@ -34,5 +34,15 @@ class New_users extends  CI_Model{
 		$insert = $this->db->insert('users', $new_member_insert_data);
 		return $insert;
 	}
+	
+	public function newsletter(){
+		$newsletter = array(
+		'name' => $this->db->where('name', $this->input->post('name')),
+		'email' => $this->db->where('email', $this->input->post('email'))
+	);
+	$insert_newsletter = $this->db->insert('newsletter', $newsletter);
+		
+		return $newsletter;
+	}
 } // Ends New_users Function
 ?>

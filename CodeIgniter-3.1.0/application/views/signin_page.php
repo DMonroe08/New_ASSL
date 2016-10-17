@@ -21,5 +21,3 @@
 			</section>
 		</div><!--Ends Column MD 6 Offset 3 Div-->
 </div><!--Ends Row Div-->
-
-</div><!--Ends Sign Div-->

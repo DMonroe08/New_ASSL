@@ -48,5 +48,20 @@ class Signup extends CI_Controller{
 			}
 		}
 	} //Ends Create Member Function	
+	
+	
+	public function newsletter(){
+		$this->load->library('form_validation');
+	
+		$this->form_validation->set_rules('name', 'name', 'trim|required');
+		$this->form_validation->set_rules('email', 'email', 'trim|required');
+		
+		if($this->form_validation->run() == TRUE){
+		$this->load->model('new_users'); 
+		if($query = $this->new_users->newsletter()){
+			return TRUE;
+		}
+	}
+}
 }
 ?>

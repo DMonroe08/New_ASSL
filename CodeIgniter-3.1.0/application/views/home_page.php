@@ -55,3 +55,23 @@
 						</div><!--Ends MD 10 Offset 2 Column-->
 					</div><!--Ends Row Div-->
 				</div>
+				
+				
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<section class="form" id="news">
+							<h3>Sign up for our news letter</h3>
+						<form class="form-inline">
+							<div class="form-group">
+							
+							<label>Email: </label>
+							<div class="norm"><input type="email" id="newsEmail"/></div>
+							<button class="btn btn-default" type="submit" onclick="submit">Submit</button>
+						</div>
+						</form>
+					</section>
+					</div>
+				</div>
+				
+				
+				
